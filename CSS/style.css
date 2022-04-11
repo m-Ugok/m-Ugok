@@ -1,0 +1,183 @@
+header:not(#top) {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: mediumslateblue;
+  border-radius: 30px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+#top {
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  color: mediumslateblue;
+  background-color: rgba(250, 250, 250, 30%);
+  font-size: 70px;
+  font-family: Gabriola;
+  text-shadow: 0px 0px 10px aliceblue;
+  background-image: url(../img/pic/ushirosugata.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+
+body {
+  box-sizing: border-box;
+  color: mediumslateblue;
+  background-image: url(../img/pic/dot2.png);
+  background-repeat: repeat;
+  background-size: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+
+#toppage_photo img {
+  width: 25%;
+  height: 25%;
+}
+
+video {
+  width: 50%;
+  height: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+h3 {
+  margin: 50px 40% 20px;
+  border-bottom: dotted 5px mediumslateblue;
+}
+
+#aikon {
+  border-radius: 250px;
+  max-width: 500px;
+}
+
+#profile dt,
+h2 {
+  font-size: xx-large;
+  margin: 2em auto;
+  padding-left: 1ex;
+  border: solid 2px mediumslateblue;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  border-radius: 40%;
+  width: 400px;
+  background-color: rgba(250, 250, 250, 30%);
+}
+
+#profile dd {
+  margin-left: 0;
+  font-weight: bold;
+}
+
+dd p::first-letter {
+  font-size: 1em;
+}
+
+.web {
+  margin-left: -2%;
+  font-weight: bold;
+  color: blue;
+}
+
+.edit {
+  margin-left: -2%;
+  font-weight: bold;
+  color: rgb(111, 0, 255);
+}
+
+.CG {
+  margin-left: -2%;
+  font-weight: bold;
+  color: rgb(162, 0, 255);
+}
+
+.programing {
+  margin-left: -2%;
+  font-weight: bold;
+  color: rgb(211, 58, 185);
+}
+
+#form {
+  width: 50%;
+  height: 500px;
+}
+
+#form,
+#form td {
+  background-color: rgba(250, 250, 250, 30%);
+  color: blue;
+  margin: 0 auto;
+  border: solid 2px mediumslateblue;
+}
+
+a:link {
+  margin: 0px 70px;
+  text-decoration: none;
+  color: white;
+  background-color: mediumslateblue;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+  background-color: mediumslateblue;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+}
+
+#photopage img,
+#designpage img {
+  width: 25%;
+  height: 25%;
+}
+
+#designpage p::first-letter {
+  font-size: 40px;
+}
+
+figure {
+  display: inline-block;
+  width: 600px;
+  margin: 5px;
+  background-color: rgba(250, 250, 250, 30%);
+}
+
+figcaption {
+  width: 600px;
+}
